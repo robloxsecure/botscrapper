@@ -1,21 +1,19 @@
-# Discord Server Scraper
+# 🤖 Discord Member Scraper
 
-Selfbot simple pour extraire la liste des membres des serveurs où le compte est présent.
+Un outil **ultra simple** pour sauvegarder la liste des membres de tous tes serveurs Discord dans un fichier.
 
+## 🚀 Installation (Débutant)
 
-## Fonctionnalités
+1. **Télécharge le projet** : Clique sur le bouton vert **"Code"** > **"Download ZIP"**. Décompresse le dossier sur ton bureau.
+2. **Installe Python** : Si tu ne l'as pas, télécharge-le sur [python.org](https://www.python.org/downloads/). ⚠️ Coche bien **"Add Python to PATH"** pendant l'installation !
+3. **Lancement** : Double-clique sur **`start.bat`** (Windows) ou tape `python main.py` dans un terminal.
 
-- Récupération de la liste des serveurs de l'utilisateur et son contenue
-- Scraping paginé des membres (par paquets de 1000)
-- Gestion automatique du rate limit (attente `Retry-After`)
-- Export JSON structuré (`scrape.json`)
+## 🔑 Comment récupérer son Token Discord (Automatique)
 
-## Installation
+Pour utiliser ce scraper, tu as besoin de ton token utilisateur. Nous avons fait en sorte que ce soit **très simple** :
 
-1. Clone le dépôt :
-   ```bash
-   git clone https://github.com/shelveofficiel/selfbot.git
-   cd botscrapper
-   pip install -r requirements.txt
-   met ton token de ton compte discord : TOKEN = ... (dans le fichier botscrapper)
-   python botscrapper.py
+1. Ouvre **Discord** dans ton navigateur web (sur PC, pas dans l'application).
+2. Appuie sur **F12** pour ouvrir la console (ou clic droit > "Inspecter" > onglet "Console").
+3. Copie-colle cette commande dans la console et appuie sur **Entrée** :
+   ```javascript
+   copy((webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c){m.push(e.c[c])}}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken())
