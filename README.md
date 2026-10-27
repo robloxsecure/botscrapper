@@ -1,6 +1,6 @@
-# 🤖 Discord Member Scraper
+# 🤖 Discord Server Scraper
 
-Un outil **ultra simple** pour sauvegarder la liste des membres de tous tes serveurs Discord dans un fichier.
+Un outil **ultra simple** pour récupéré le contenue d'un server discord
 
 ## 🚀 Installation (Débutant)
 
